@@ -4,10 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>stevelos</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>Premier Golf Management</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#footer").load("_footer.html");
+      });
+    </script>
+    <script src="js/script.js"></script>
+    <meta name="robots" content="noindex" />
   </head>
   <body>
-    <h6>hello world</h6>
+    <nav class="navbar">
+      <div class="inner-width">
+        <button class="menu-toggler">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="navbar-menu">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <section id="home">
+      <div class="inner-width">
+        <div class="content">
+          <h2>Andrew McKenzie PGA</h2>
+          <p>structure your golf</p>
+          <a href="about.html" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+    <div id="footer"></div>
   </body>
 </html>
